@@ -1,0 +1,186 @@
+/* Badge Component */
+
+.badge {
+    display: inline-block;
+    border-radius: 16px;
+    padding: 4px 8px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.badge.default {
+    background-color: #e0e0e0;
+}
+
+.badge.primary {
+    background-color: #25AB21;
+}
+
+.badge.secondary {
+    background-color: #fc6770;
+}
+
+.badge.small {
+    font-size: 12px;
+    padding: 2px 4px;
+}
+
+.badge.medium {
+    font-size: 14px;
+    padding: 4px 8px;
+}
+
+.badge.large {
+    font-size: 16px;
+    padding: 8px 16px;
+}
+
+
+/* Button Component */
+
+.button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.button.default {
+    background-color: #b5b5b5;
+    color: black;
+}
+
+.button.primary {
+    background-color: #0078ad;
+    color: white;
+}
+
+.button.secondary {
+    background-color: #b5b5b5;
+    color: black;
+}
+
+.button.small {
+    padding: 4px 8px;
+    font-size: 14px;
+}
+
+.button.medium {
+    padding: 12px 24px;
+    font-size: 16px;
+}
+
+.button.large {
+    padding: 16px 48px;
+    font-size: 18px;
+}
+
+.button:disabled {
+    background-color: #b5b5b5;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+
+/* InputBox Component */
+
+.input {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.input:disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+}
+
+.input.small {
+    font-size: 12px;
+    padding: 8px;
+}
+
+.input.medium {
+    font-size: 16px;
+    padding: 12px;
+}
+
+.input.large {
+    font-size: 20px;
+    padding: 16px;
+}
+
+/* Dropdown Component */
+
+.dropdown {
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.dropdown:disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+}
+
+/* Notification Component */
+.notification {
+    padding: 12px;
+    border-radius: 16px;
+    margin: 12px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: auto;
+    border: 1px solid #e0e0e0;
+}
+
+.notification.success {
+    background-color: #25AB21;
+}
+
+.notification.error {
+    background-color: #f50031;
+}
+
+.notification.warning {
+    background-color: #f06d0f;
+}
+
+.notification.info {
+    background-color: #0078ad;
+}
+
+.notification.small {
+    font-size: 12px;
+    padding: 8px;
+}
+
+.notification.medium {
+    font-size: 16px;
+    padding: 12px;
+}
+
+.notification.large {
+    font-size: 20px;
+    padding: 16px;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: inherit;
+    margin-left: 12px;
+}
